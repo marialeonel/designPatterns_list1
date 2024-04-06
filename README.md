@@ -2,6 +2,11 @@
 
 The Contacts Manager is a JavaScript class that allows users to manage a list of contacts. It provides functionalities to add, remove, list, and search contacts.
 
+## Reasons for I use the Adapter and Observer
+
+- *Observer:* I chose the Observer pattern because it allows `ContactsManager` to automatically notify interested objects, such as `SearchObserver`, about changes in their contact list, ensuring flexible and decoupled communication between them. This is useful for dynamically updating search results when contacts are added or removed;
+- *Adpater:* It was chosen to adapt the interface of Contact objects to the specific needs of `ContactsManager`. This allows `ContactsManager` to work with different types of contacts uniformly, without modifying its internal logic, thus ensuring flexibility and code reusability.
+
 ## Class: ContactsManager
 
 ### Constructor
