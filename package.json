@@ -1,0 +1,11 @@
+{
+  "name": "designpatterns_list1",
+  "version": "1.0.0",
+  "description": "A list that I have to use a structural pattern and a behavior pattern in the same project base on a contacts manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria Fernanda Leonel Bertelli",
+  "license": "ISC"
+}
